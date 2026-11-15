@@ -12,7 +12,7 @@ def test_average():
     book = make_book()
     assert book.average() == 70
 
-def test_average_of_empty_book_rasie():
+def test_average_of_empty_book_raises():
     with pytest.raises(ValueError):
         MarksBook().average() == 0
 
