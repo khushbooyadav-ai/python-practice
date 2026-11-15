@@ -19,7 +19,7 @@ class MarksBook:
         return total / len(self.students)
 
     def find(self, name):
-        for s in self.students:
+        for s in  self.students:
             if s.name == name:
                 return s
         return None

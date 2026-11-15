@@ -23,5 +23,4 @@ assert amount == [20, 50, 10]
 
 big = [e for e in expenses if e.amount > 15]
 assert len(big) == 2
-
 print("all checks passed")
