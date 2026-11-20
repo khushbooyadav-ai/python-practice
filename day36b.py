@@ -26,4 +26,5 @@ assert by_subject["science"] == 65
 ranked = df.sort_values("marks", ascending=False)
 assert list(ranked["name"]) == ["zoya", "asha", "ravi","ben"]
 assert ranked.iloc[0]["name"] == "zoya"
+
 print("all checks passed")
