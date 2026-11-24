@@ -29,8 +29,8 @@ for seed in range(10):
     ]
     for h in wrong:
         wrong_counts[h] = wrong_counts.get(h, 0) + 1
-        print("seed", seed, "wrong rows:", wrong)
+    print("seed", seed, "wrong rows:", wrong)
     
-    print("total wrong:", sum(wrong_counts.values()))
-    print(sorted(wrong_counts.items(), key=lambda item: item[1], reverse=True))
+print("total wrong:", sum(wrong_counts.values()))
+print(sorted(wrong_counts.items(), key=lambda item: item[1], reverse=True))
     
