@@ -1,3 +1,7 @@
+# The model says "not spam" for every email.
+# Accuracy is 0.95 but recall is __ because it caught __ of the __ spam emails.
+# This is an imbalanced dataset: __.
+
 from sklearn.metrics import confusion_matrix
 
 truth =  [0] * 95 + [1] * 5
